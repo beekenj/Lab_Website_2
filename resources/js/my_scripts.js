@@ -42,7 +42,7 @@ function viewStudentStats(id, toggle){
 		document.getElementById(id).style.visibility = "visible";
 		document.getElementById(id).style.height = "auto";
 		old_id = id;
-		if(first_toggle == true){
+		if(first_toggle){
 			default_id = id;
 			first_toggle = false;
 			// console.log(default_id);
